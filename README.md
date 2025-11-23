@@ -10,5 +10,7 @@
 5. Проверила правильность плана с помощью terraform plan
 6. Создала ВМ с помощью команды terraform apply
 
-
-Написала данный README
+Написала данный README с приложением скриншотов:
+proxmox_before.jpg
+result_terraform.jpg
+proxmox_after.jpg
