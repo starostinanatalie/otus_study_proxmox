@@ -49,8 +49,7 @@ resource "proxmox_vm_qemu" "vm-redos" {
     }
   
   boot = "order=scsi0"
-  ipconfig0 = "ip=192.168.0.149/24,gw=192.168.0.1"
-  
+    
 }
 
 resource "proxmox_vm_qemu" "vm-ubuntu" {
